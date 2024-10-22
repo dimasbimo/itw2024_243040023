@@ -1,0 +1,28 @@
+h1 {
+    color: darkblue;
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    text-align: center;
+}
+
+h4 {
+    font-style: italic;
+    text-align: end;
+}
+.warnaputih {
+    color:white
+}
+
+body {
+    background-color: aqua;
+    font-family: Georgia;
+    text-align: justify
+}
+.warnakuning {
+    color: orange;
+    text-align: center;
+}
+.warnahitam {
+    text-align: right;
+    line-height: 25px;
+}

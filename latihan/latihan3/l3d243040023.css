@@ -1,0 +1,44 @@
+h1 {
+    color: darkblue;
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    text-align: center;
+}
+
+h4 {
+    font-style: italic;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-variant: small-caps;
+}
+.warnaputih {
+    color:red;
+}
+.warnaputih:hover {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+}
+body {
+    background-image: url('background.png');
+    background-repeat: repeat-x;
+    font-family: Georgia;
+    text-align: justify
+}
+.warnakuning {
+    color: orange;
+    text-align: center;
+}
+.warnahitam {
+    text-align: center;
+    line-height: 25px;
+}
+.coklat {
+    text-decoration: none;
+}
+.coklat:hover {
+    color:white;
+    background-color: blue;
+}
