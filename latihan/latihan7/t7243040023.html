@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupang Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="t7243040023.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Cupang Shop</h2>
+                <p class="sub-heading">Cupang Mow</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 100K</h4>
+                <p class="item">Betta Plakat</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 120K</h4>
+                <p class="item">Betta Halfmoon</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Cupang Mow Shop</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Cupang Mow</h3>
+                <p>
+                    Cupang Mow adalah Toko cupang yang berada di bandung dan bersaing dengan pasaran ikan hias dibandung
+                </p>
+            </div>
+            <div class="service">
+                    <div class="icon"></div>
+                    <h3>Kualitas</h3>
+                    <p>
+                        Kualitas ikan cupang di Cupang Mow tidak kalah bagus karena perawatan yang sangat diperhatikan sehingga menghasilkan cupang berkualitas tinggi.
+                    </p>
+             </div>
+             <div class="service">
+                    <div class="icon"></div>
+                    <h3>Garansi</h3>
+                    <p>
+                        Garansi Ikan cupang Di Cupang Mow ketika cupang stres dan mati, akan digaransikan 1x24 Jam.
+                    </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Lokasi</h3>
+                <p>
+                    Anda bisa mengunjungi Cupang Mow di Kota Bandung tepatnya Di Pusdai.
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/betta_crowntail-.png" alt="">
+            <img src="img/Marble.png" alt="">
+            <img src="img/plakat.png" alt="">
+            <img src="img/Super Delta.png" alt="">
+            <img src="img/butterfly.png" alt="">
+            <img src="img/Halfmoon.png" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+const nav =document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function() {
+    nav.classList.toggle('slide');
+}); 
+    </script>
+</body>
+</html>
